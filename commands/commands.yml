@@ -1,0 +1,7 @@
+#Gcp commands
+GCLOUD_INIT_COMMAND : "gcloud init"
+
+# Aws commands
+
+
+# Azure commands
