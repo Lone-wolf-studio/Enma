@@ -14,7 +14,7 @@ class CloudNameError(Exception):
 
 # exception for client sdk not installed
 class ClientNotFound(Exception):
-	def __init__(self, error_message=None)
+	def __init__(self, error_message=None):
 		if error_message:
 			self.error_message = error_message
 		else:

@@ -1,7 +1,9 @@
 #Gcp commands
+GCLOUD_SDK_CHECK : "gcloud --version"
 GCLOUD_INIT_COMMAND : "gcloud init"
 
 # Aws commands
-
+AWS_SDK_CHECK : "aws --version"
 
 # Azure commands
+AZURE_SDK_CHECK : "az --version"
