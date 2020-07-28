@@ -7,7 +7,7 @@ from utilities.constants import (GCLOUD_SDK_CHECK,
 
 class CommandsParser(object):
 	
-	def get_commands(self, command_type=None, cloud_name=None):
+	def get_commands(self, command_type, cloud_name):
 		self.cloud_name = cloud_name
 		with open('commands.yml') as file:
 			self.commands_dict = yaml.load(file, Loader=yaml.FullLoader)    
