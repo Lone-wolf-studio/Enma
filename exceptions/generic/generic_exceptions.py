@@ -1,4 +1,4 @@
-# exception for unknow cloud name/ typo errors
+# exception for unknown cloud name/ typo errors
 class CloudNameError(Exception):
 	def __init__(self, error_message=None):
 		if error_message:
@@ -10,7 +10,7 @@ class CloudNameError(Exception):
 		if self.error_message:
 			return '{0}'.format(self.error_message)
 		else:
-			return 'CloudNameError Occured'				
+			return 'CloudNameError Occurred'				
 
 # exception for client sdk not installed
 class ClientNotFound(Exception):
@@ -24,4 +24,4 @@ class ClientNotFound(Exception):
 		if self.error_message:
 			return '{0}'.format(self.error_message)
 		else:
-			return 'ClientNotFound Occured'
+			return 'ClientNotFound Occurred'

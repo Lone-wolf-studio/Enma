@@ -9,7 +9,7 @@ class GcpClientNotFoundError(Exception):
 		if self.error_message:
 			return '{0}'.format(self.error_message)
 		else:
-			return 'GcpClientNotFoundError Occured'	
+			return 'GcpClientNotFoundError Occurred'	
 
 
 class GcpConfigFileNotFound(Exception):
@@ -23,4 +23,4 @@ class GcpConfigFileNotFound(Exception):
         if self.error_message:
             return '{0}'.format(self.error_message)
         else:
-            return 'GcpConfigJsonFileNotFound Occured'
+            return 'GcpConfigJsonFileNotFound Occurred'
