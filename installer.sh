@@ -26,6 +26,7 @@ install_azure () {
 	sudo apt-get install azure-cli
 }
 
+
 install_gcloud
 install_aws
 install_azure
