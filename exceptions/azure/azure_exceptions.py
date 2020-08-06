@@ -9,7 +9,7 @@ class AzureClientNotFoundError:
 		if self.error_message:
 			return '{0}'.format(self.error_message)
 		else:
-			return 'AzureClientNotFoundError Occured'		
+			return 'AzureClientNotFoundError Occurred'		
 
 class AzureJsonConfigFileNotFound:
 	def __init__(self, error_message, *args, **kwargs):
@@ -22,4 +22,4 @@ class AzureJsonConfigFileNotFound:
 		if self.error_message:
 			return '{0}'.format(self.error_message)
 		else:
-			return 'AzureJsonConfigFileNotFoundError Occured'				
+			return 'AzureJsonConfigFileNotFoundError Occurred'				
